@@ -1,0 +1,52 @@
+/* ---------- top bar ---------- */
+/* .top-bar { font-size: .9rem; } */
+
+/* ---------- navbar ---------- */
+.navbar .nav-link { color: #333; margin: 16px; font-weight: 500px; }
+.navbar .nav-link:hover { color: #2ecc71 !important; }
+
+/* cart badge */
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: #27ae60;
+  color: #fff;
+  font-size: .65rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* ---------- carousel ---------- */
+.carousel-item img { height: 600px; object-fit: cover; filter: brightness(100%); }
+.carousel-caption { bottom: 140px; left: 6%; right: auto; text-align: left; }
+.carousel-caption h2 { font-size: 2.6rem; text-shadow: 2px 2px 6px rgba(0,0,0,0.6); }
+.carousel-caption p { font-size: 1.05rem; }
+
+/* ---------- categories ---------- */
+.category-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 8px solid #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+
+/* center category text */
+.category h5 { font-weight: 600px; }
+
+/* ---------- featured products ---------- */
+.product-card { border: none; }
+.product-card img { height: 220px; object-fit: cover; border-radius: 6px 6px 0 0; }
+.rating { color: #f6c22a; font-size: .9rem; }
+.price { color: #9aa3ad; font-weight: 600; }
+
+/* ---------- footer ---------- */
+.footer { padding-bottom: 40px; }
+.footer h5 { font-weight: 700; }
+
+/* responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-item img { height: 320px; }
+  .carousel-caption { bottom: 60px; left: 5%; right: 5%; }
+  .category-img { width: 140px; height: 140px; }
+}
